@@ -13,7 +13,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dust-rivera/La-Salle-Computer-Society-Backend-Development-Challenge"
+    "url": "https://github.com/Dust-rivera/Products-API-Rivera"
   },
   "dependencies": {
     "dotenv": "^17.2.2",
