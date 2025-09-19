@@ -53,17 +53,6 @@ It is designed for the La Salle Computer Society Backend Development Challenge
    ```sh
    npm run dev
    ```
-
-## Environment Variables
-
-| Variable         | Description                |
-|------------------|---------------------------|
-| MYSQL_HOST       | MySQL server host         |
-| MYSQL_USER       | MySQL username            |
-| MYSQL_PASSWORD   | MySQL password            |
-| MYSQL_DATABASE   | Database name             |
-| PORT             | Server port (default: 3001)|
-
 ## API Endpoints
 
 All responses are in JSON.
@@ -75,19 +64,6 @@ All responses are in JSON.
 | GET    | `/products/:id`  | Get product by ID                 | 200 OK           | 404, 500      |
 | PUT    | `/products/:id`  | Update product by ID              | 200 OK           | 400, 404, 500 |
 | DELETE | `/products/:id`  | Delete product by ID              | 200 OK           | 404, 500      |
-
-### Example Product Object
-
-```json
-{
-  "id": 1,
-  "name": "Razer Cobra",
-  "price": 3950.00,
-  "model": "Pro",
-  "stock": 14,
-  "type": "Wireless"
-}
-```
 
 ## Input Validation & Error Handling
 
@@ -102,19 +78,3 @@ All responses are in JSON.
   ```sh
   npm test
   ```
-
-## Bonus Features
-
-- API unit and integration tests (Jest & Supertest)
-
-## License
-
-ISC
-
----
-
-## Author
-
-Dustine Gian G. Rivera
-
----
