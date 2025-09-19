@@ -43,8 +43,8 @@ CREATE TABLE products (
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/Dust-rivera/La-Salle-Computer-Society-Backend-Development-Challenge.git
-   cd La-Salle-Computer-Society-Backend-Development-Challenge
+   git clone https://github.com/Dust-rivera/Products-API-Rivera.git
+   cd Products-API-Rivera
    ```
 
 2. **Install dependencies:**
