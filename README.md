@@ -5,7 +5,7 @@ A RESTful API for managing a collection of products, built with Node.js, Express
 ## Overview
 
 This API allows clients to perform Create, Read, Update, and Delete (CRUD) operations on products stored in a MySQL database.  
-It is designed for the La Salle Computer Society Backend Development Challenge (September 17–19, 2025).
+It is designed for the La Salle Computer Society Backend Development Challenge
 
 ## Features
 
