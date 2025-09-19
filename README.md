@@ -53,7 +53,6 @@ It is designed for the La Salle Computer Society Backend Development Challenge
    ```sh
    npm run dev
    ```
-   The API will be available at `http://localhost:3001`.
 
 ## Environment Variables
 
