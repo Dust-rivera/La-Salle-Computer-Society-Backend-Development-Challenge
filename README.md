@@ -22,23 +22,6 @@ It is designed for the La Salle Computer Society Backend Development Challenge
 - **DB Driver:** mysql2
 - **Testing:** Jest, Supertest
 
-## Database Schema
-
-See [`schema.sql`](./schema.sql) for the full SQL schema.
-
-Example product table:
-
-```sql
-CREATE TABLE products (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    price DECIMAL(10, 2) NOT NULL,
-    model VARCHAR(50),
-    stock INT,
-    type VARCHAR(50)
-);
-```
-
 ## Setup & Installation
 
 1. **Clone the repository:**
